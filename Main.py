@@ -39,6 +39,6 @@ if st.button("Send 🚀"):
                 response = model.generate_content(user_input)
                 st.write(response.text)
             except Exception as e:
-                st.error(f"Error: {e}")
+                st.error(f"Error: {e}") 
                 
               
